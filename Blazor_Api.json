@@ -1,216 +1,132 @@
 {
-  "namespace": "QuickShopApi.Controllers",
-  "class": "DataController",
-  "attributes": [
+  "Controllers": [
     {
-      "name": "ApiController"
-    },
-    {
-      "name": "Route",
-      "value": "api/[controller]"
-    }
-  ],
-  "methods": [
-    {
-      "name": "GetSignupData",
-      "httpMethod": "HttpGet",
-      "attributes": [
+      "Name": "DataController",
+      "Route": "api/[controller]",
+      "Methods": [
         {
-          "name": "HttpGet",
-          "value": "SignUpFromPhone"
-        }
-      ]
-    },
-    {
-      "name": "Signup",
-      "httpMethod": "HttpPost",
-      "attributes": [
-        {
-          "name": "HttpPost",
-          "value": "signup"
-        }
-      ]
-    },
-    {
-      "name": "GetSellersData",
-      "httpMethod": "HttpGet",
-      "attributes": [
-        {
-          "name": "HttpGet",
-          "value": "sellers"
-        }
-      ]
-    },
-    {
-      "name": "GetSellerData",
-      "httpMethod": "HttpGet",
-      "attributes": [
-        {
-          "name": "HttpGet",
-          "value": "sellerdata"
-        }
-      ]
-    },
-    {
-      "name": "GetUsersData",
-      "httpMethod": "HttpGet",
-      "attributes": [
-        {
-          "name": "HttpGet",
-          "value": "UsersFromPhone"
-        }
-      ]
-    },
-    {
-      "name": "GetProvisionStoresFromSellersData",
-      "httpMethod": "HttpGet",
-      "attributes": [
-        {
-          "name": "HttpGet",
-          "value": "ProvisionStoresFromSellers"
-        }
-      ]
-    },
-    {
-      "name": "GetCateringFromSellersData",
-      "httpMethod": "HttpGet",
-      "attributes": [
-        {
-          "name": "HttpGet",
-          "value": "CateringFromSellers"
-        }
-      ]
-    },
-    {
-      "name": "GetMechanicsFromSellersData",
-      "httpMethod": "HttpGet",
-      "attributes": [
-        {
-          "name": "HttpGet",
-          "value": "Mechanics"
-        }
-      ]
-    },
-    {
-      "name": "GetREPAIRSANDEMBEDDEDFromSellersData",
-      "httpMethod": "HttpGet",
-      "attributes": [
-        {
-          "name": "HttpGet",
-          "value": "REPAIRSANDEMBEDDED"
-        }
-      ]
-    },
-    {
-      "name": "GetDRINKINGSPOTFromSellersData",
-      "httpMethod": "HttpGet",
-      "attributes": [
-        {
-          "name": "HttpGet",
-          "value": "DRINKINGSPOT"
-        }
-      ]
-    },
-    {
-      "name": "GetCUSMOTOLOGYFromSellersData",
-      "httpMethod": "HttpGet",
-      "attributes": [
-        {
-          "name": "HttpGet",
-          "value": "CUSMOTOLOGY"
-        }
-      ]
-    },
-    {
-      "name": "GetHAIRDRESSINGFromSellersData",
-      "httpMethod": "HttpGet",
-      "attributes": [
-        {
-          "name": "HttpGet",
-          "value": "HAIRDRESSING"
-        }
-      ]
-    },
-    {
-      "name": "GetAUTOELECTRICAINFromSellersData",
-      "httpMethod": "HttpGet",
-      "attributes": [
-        {
-          "name": "HttpGet",
-          "value": "AUTOELECTRICAIN"
-        }
-      ]
-    },
-    {
-      "name": "GetMartFromSellersData",
-      "httpMethod": "HttpGet",
-      "attributes": [
-        {
-          "name": "HttpGet",
-          "value": "Mart"
-        }
-      ]
-    },
-    {
-      "name": "FetchNewUserFromPhoneData",
-      "httpMethod": "HttpGet",
-      "attributes": [
-        {
-          "name": "HttpGet",
-          "value": "NewUserFromPhone"
-        }
-      ]
-    },
-    {
-      "name": "UpdateProfile",
-      "httpMethod": "HttpPut",
-      "attributes": [
-        {
-          "name": "HttpPut",
-          "value": "updateProfile"
-        }
-      ]
-    },
-    {
-      "name": "GetProductImages",
-      "httpMethod": "HttpGet"
-    },
-    {
-      "name": "GetProductImage",
-      "httpMethod": "HttpGet",
-      "parameters": [
-        {
-          "name": "id"
-        }
-      ]
-    },
-    {
-      "name": "PostProductImage",
-      "httpMethod": "HttpPost",
-      "parameters": [
-        {
-          "name": "productImage"
-        }
-      ]
-    },
-    {
-      "name": "PutProductImage",
-      "httpMethod": "HttpPut",
-      "parameters": [
-        {
-          "name": "id"
+          "Name": "GetSignupData",
+          "HttpMethod": "GET",
+          "Route": "SignUpFromPhone",
+          "Description": "Get signup data from the database."
         },
         {
-          "name": "productImage"
-        }
-      ]
-    },
-    {
-      "name": "DeleteProductImage",
-      "httpMethod": "HttpDelete",
-      "parameters": [
+          "Name": "Signup",
+          "HttpMethod": "POST",
+          "Route": "signup",
+          "Description": "Create a new user signup in the database."
+        },
         {
-          "name": "id"
+          "Name": "GetSellersData",
+          "HttpMethod": "GET",
+          "Route": "sellers",
+          "Description": "Get sellers data from the database."
+        },
+        {
+          "Name": "GetSellerData",
+          "HttpMethod": "GET",
+          "Route": "sellerdata",
+          "Description": "Get seller product data from the database."
+        },
+        {
+          "Name": "GetUsersData",
+          "HttpMethod": "GET",
+          "Route": "UsersFromPhone",
+          "Description": "Get user data from the database."
+        },
+        {
+          "Name": "GetProvisionStoresFromSellersData",
+          "HttpMethod": "GET",
+          "Route": "ProvisionStoresFromSellers",
+          "Description": "Get provision stores data from the database."
+        },
+        {
+          "Name": "GetCateringFromSellersData",
+          "HttpMethod": "GET",
+          "Route": "CateringFromSellers",
+          "Description": "Get catering data from the database."
+        },
+        {
+          "Name": "GetMechanicsFromSellersData",
+          "HttpMethod": "GET",
+          "Route": "Mechanics",
+          "Description": "Get mechanics data from the database."
+        },
+        {
+          "Name": "GetREPAIRSANDEMBEDDEDFromSellersData",
+          "HttpMethod": "GET",
+          "Route": "REPAIRSANDEMBEDDED",
+          "Description": "Get REPAIRSANDEMBEDDED data from the database."
+        },
+        {
+          "Name": "GetDRINKINGSPOTFromSellersData",
+          "HttpMethod": "GET",
+          "Route": "DRINKINGSPOT",
+          "Description": "Get DRINKINGSPOT data from the database."
+        },
+        {
+          "Name": "GetCUSMOTOLOGYFromSellersData",
+          "HttpMethod": "GET",
+          "Route": "CUSMOTOLOGY",
+          "Description": "Get CUSMOTOLOGY data from the database."
+        },
+        {
+          "Name": "GetHAIRDRESSINGFromSellersData",
+          "HttpMethod": "GET",
+          "Route": "HAIRDRESSING",
+          "Description": "Get HAIRDRESSING data from the database."
+        },
+        {
+          "Name": "GetAUTOELECTRICAINFromSellersData",
+          "HttpMethod": "GET",
+          "Route": "AUTOELECTRICAIN",
+          "Description": "Get AUTOELECTRICAIN data from the database."
+        },
+        {
+          "Name": "GetMartFromSellersData",
+          "HttpMethod": "GET",
+          "Route": "Mart",
+          "Description": "Get Mart data from the database."
+        },
+        {
+          "Name": "FetchNewUserFromPhoneData",
+          "HttpMethod": "GET",
+          "Route": "NewUserFromPhone",
+          "Description": "Fetch new user data from the database."
+        },
+        {
+          "Name": "UpdateProfile",
+          "HttpMethod": "PUT",
+          "Route": "updateProfile",
+          "Description": "Update user profile data in the database."
+        },
+        {
+          "Name": "GetProductImages",
+          "HttpMethod": "GET",
+          "Description": "Get product images data from the database."
+        },
+        {
+          "Name": "GetProductImage",
+          "HttpMethod": "GET",
+          "Route": "{id}",
+          "Description": "Get product image data by ID from the database."
+        },
+        {
+          "Name": "PostProductImage",
+          "HttpMethod": "POST",
+          "Description": "Create a new product image data in the database."
+        },
+        {
+          "Name": "PutProductImage",
+          "HttpMethod": "PUT",
+          "Route": "{id}",
+          "Description": "Update product image data in the database by ID."
+        },
+        {
+          "Name": "DeleteProductImage",
+          "HttpMethod": "DELETE",
+          "Route": "{id}",
+          "Description": "Delete product image data from the database by ID."
         }
       ]
     }
