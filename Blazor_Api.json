@@ -1,0 +1,218 @@
+{
+  "namespace": "QuickShopApi.Controllers",
+  "class": "DataController",
+  "attributes": [
+    {
+      "name": "ApiController"
+    },
+    {
+      "name": "Route",
+      "value": "api/[controller]"
+    }
+  ],
+  "methods": [
+    {
+      "name": "GetSignupData",
+      "httpMethod": "HttpGet",
+      "attributes": [
+        {
+          "name": "HttpGet",
+          "value": "SignUpFromPhone"
+        }
+      ]
+    },
+    {
+      "name": "Signup",
+      "httpMethod": "HttpPost",
+      "attributes": [
+        {
+          "name": "HttpPost",
+          "value": "signup"
+        }
+      ]
+    },
+    {
+      "name": "GetSellersData",
+      "httpMethod": "HttpGet",
+      "attributes": [
+        {
+          "name": "HttpGet",
+          "value": "sellers"
+        }
+      ]
+    },
+    {
+      "name": "GetSellerData",
+      "httpMethod": "HttpGet",
+      "attributes": [
+        {
+          "name": "HttpGet",
+          "value": "sellerdata"
+        }
+      ]
+    },
+    {
+      "name": "GetUsersData",
+      "httpMethod": "HttpGet",
+      "attributes": [
+        {
+          "name": "HttpGet",
+          "value": "UsersFromPhone"
+        }
+      ]
+    },
+    {
+      "name": "GetProvisionStoresFromSellersData",
+      "httpMethod": "HttpGet",
+      "attributes": [
+        {
+          "name": "HttpGet",
+          "value": "ProvisionStoresFromSellers"
+        }
+      ]
+    },
+    {
+      "name": "GetCateringFromSellersData",
+      "httpMethod": "HttpGet",
+      "attributes": [
+        {
+          "name": "HttpGet",
+          "value": "CateringFromSellers"
+        }
+      ]
+    },
+    {
+      "name": "GetMechanicsFromSellersData",
+      "httpMethod": "HttpGet",
+      "attributes": [
+        {
+          "name": "HttpGet",
+          "value": "Mechanics"
+        }
+      ]
+    },
+    {
+      "name": "GetREPAIRSANDEMBEDDEDFromSellersData",
+      "httpMethod": "HttpGet",
+      "attributes": [
+        {
+          "name": "HttpGet",
+          "value": "REPAIRSANDEMBEDDED"
+        }
+      ]
+    },
+    {
+      "name": "GetDRINKINGSPOTFromSellersData",
+      "httpMethod": "HttpGet",
+      "attributes": [
+        {
+          "name": "HttpGet",
+          "value": "DRINKINGSPOT"
+        }
+      ]
+    },
+    {
+      "name": "GetCUSMOTOLOGYFromSellersData",
+      "httpMethod": "HttpGet",
+      "attributes": [
+        {
+          "name": "HttpGet",
+          "value": "CUSMOTOLOGY"
+        }
+      ]
+    },
+    {
+      "name": "GetHAIRDRESSINGFromSellersData",
+      "httpMethod": "HttpGet",
+      "attributes": [
+        {
+          "name": "HttpGet",
+          "value": "HAIRDRESSING"
+        }
+      ]
+    },
+    {
+      "name": "GetAUTOELECTRICAINFromSellersData",
+      "httpMethod": "HttpGet",
+      "attributes": [
+        {
+          "name": "HttpGet",
+          "value": "AUTOELECTRICAIN"
+        }
+      ]
+    },
+    {
+      "name": "GetMartFromSellersData",
+      "httpMethod": "HttpGet",
+      "attributes": [
+        {
+          "name": "HttpGet",
+          "value": "Mart"
+        }
+      ]
+    },
+    {
+      "name": "FetchNewUserFromPhoneData",
+      "httpMethod": "HttpGet",
+      "attributes": [
+        {
+          "name": "HttpGet",
+          "value": "NewUserFromPhone"
+        }
+      ]
+    },
+    {
+      "name": "UpdateProfile",
+      "httpMethod": "HttpPut",
+      "attributes": [
+        {
+          "name": "HttpPut",
+          "value": "updateProfile"
+        }
+      ]
+    },
+    {
+      "name": "GetProductImages",
+      "httpMethod": "HttpGet"
+    },
+    {
+      "name": "GetProductImage",
+      "httpMethod": "HttpGet",
+      "parameters": [
+        {
+          "name": "id"
+        }
+      ]
+    },
+    {
+      "name": "PostProductImage",
+      "httpMethod": "HttpPost",
+      "parameters": [
+        {
+          "name": "productImage"
+        }
+      ]
+    },
+    {
+      "name": "PutProductImage",
+      "httpMethod": "HttpPut",
+      "parameters": [
+        {
+          "name": "id"
+        },
+        {
+          "name": "productImage"
+        }
+      ]
+    },
+    {
+      "name": "DeleteProductImage",
+      "httpMethod": "HttpDelete",
+      "parameters": [
+        {
+          "name": "id"
+        }
+      ]
+    }
+  ]
+}
