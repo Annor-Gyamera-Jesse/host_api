@@ -1,0 +1,11 @@
+{
+  "Method": "GetUsersData",
+  "Route": "api/Data/UsersFromPhone",
+  "Description": "Get user data from the database.",
+  "Type": "GET",
+  "Parameters": [],
+  "Response": {
+    "Type": "List<UserData>",
+    "Description": "List of user data."
+  }
+}
